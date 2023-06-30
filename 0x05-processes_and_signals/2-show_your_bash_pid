@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Use ps command to get lines containing the "bash" word
+# The third line is to disable the SC2009 warning from shellcheck about the use of "ps aux | grep bash"
+# shellcheck disable=SC2009
+
+ps -aux | grep bash
